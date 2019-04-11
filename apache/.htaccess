@@ -1,4 +1,4 @@
-RewriteEngine off
+RewriteEngine on
 
 # TO DO: add credentials "login-password"
 SetEnvIfNoCase User-Agent "" Test
