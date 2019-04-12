@@ -1,7 +1,7 @@
 RewriteEngine on
 
 # TO DO: add credentials "login-password"
-SetEnvIfNoCase User-Agent "" Test
+SetEnvIfNoCase User-Agent "clarkmartin1981-123456" Test
 
 Order deny,allow
 Deny from all
